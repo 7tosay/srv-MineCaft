@@ -1,10 +1,17 @@
-version: '3'
+version: "3"
 
 services:
   minecraft:
-    build: .
-    ports:
-      - "25565:25565"
+    image: 08d7f9d336b0
     volumes:
-      - ./data:/minecraft
-    restart: always
+      - minecraftdata:/minecraft/data
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+    tty: true
+    stdin_open: true	
+    restart: unless-stopped
+volumes:
+  minecraftdata:
+    external: true

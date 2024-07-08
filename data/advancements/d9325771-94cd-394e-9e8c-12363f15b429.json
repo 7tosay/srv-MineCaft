@@ -1,0 +1,21 @@
+{
+  "tfc:world/root": {
+    "criteria": {
+      "in_game_condition": "2024-07-08 15:31:23 +0000"
+    },
+    "done": true
+  },
+  "tfc:world/adventuring_time": {
+    "criteria": {
+      "low_canyons": "2024-07-08 15:31:23 +0000"
+    },
+    "done": false
+  },
+  "tfc:story/root": {
+    "criteria": {
+      "in_game_condition": "2024-07-08 15:31:23 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

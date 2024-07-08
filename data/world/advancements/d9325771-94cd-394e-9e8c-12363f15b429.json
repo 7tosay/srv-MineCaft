@@ -1,0 +1,58 @@
+{
+  "firmaciv:recipes/nav_clock": {
+    "criteria": {
+      "has_item": "2024-07-08 15:02:22 +0000"
+    },
+    "done": true
+  },
+  "firmaciv:recipes/barometer": {
+    "criteria": {
+      "has_item": "2024-07-08 15:02:22 +0000"
+    },
+    "done": true
+  },
+  "tfc:world/root": {
+    "criteria": {
+      "in_game_condition": "2024-07-08 15:01:33 +0000"
+    },
+    "done": true
+  },
+  "tfc:story/find_rock": {
+    "criteria": {
+      "rock_knapping": "2024-07-08 15:02:26 +0000"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_brick": {
+    "criteria": {
+      "has_item": "2024-07-08 15:02:26 +0000"
+    },
+    "done": true
+  },
+  "firmaciv:recipes/sextant": {
+    "criteria": {
+      "has_item": "2024-07-08 15:02:22 +0000"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2024-07-08 15:02:26 +0000"
+    },
+    "done": true
+  },
+  "tfc:world/adventuring_time": {
+    "criteria": {
+      "rolling_hills": "2024-07-08 15:01:33 +0000",
+      "hills": "2024-07-08 15:02:33 +0000"
+    },
+    "done": false
+  },
+  "tfc:story/root": {
+    "criteria": {
+      "in_game_condition": "2024-07-08 15:01:33 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

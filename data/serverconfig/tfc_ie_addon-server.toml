@@ -1,0 +1,9 @@
+
+[crucibleExternalHeater]
+	#The amount of FE an external heater consumes per tick when heating a crucible.
+	#Range: 0 ~ 32000
+	crucibleExternalHeaterFEPerTick = 20
+	#The maximum temperature a crucible reaches when heated by an external heater.
+	#Range: > 0
+	crucibleExternalHeaterTemperature = 2000
+
