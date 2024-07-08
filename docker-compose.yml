@@ -6,5 +6,5 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ./data:/minecraft/data
+      - ./data:/minecraft
     restart: always
